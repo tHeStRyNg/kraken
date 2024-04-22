@@ -1,6 +1,6 @@
-### Kraken - 
+### Kraken
 
-
+![image](https://github.com/tHeStRyNg/kraken/assets/118682909/14178ce2-4f7a-4c0a-8cce-eef300915a71)
 
 #### Instalation 
 
@@ -33,7 +33,14 @@ reboot now
 nvidia-smi
 ```
 
+![image](https://github.com/tHeStRyNg/kraken/assets/118682909/bb4961e7-3219-472d-8a48-c82e3fb1d6e4)
+
 #### Benchmark Hashcat to check everything is installed correctly
 
 ```
 hashcat -m 1000 --force -b
+```
+
+
+
+
