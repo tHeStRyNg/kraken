@@ -763,6 +763,10 @@ rockyou
 abc123
 root@kraken:/opt/wordlist#
 
+root@kraken:/opt/wordlist# wc -l rockyou.txt
+14344392 rockyou.txt
+
+
 ```
 
 Have Fun ^_^
