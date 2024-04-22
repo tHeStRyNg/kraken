@@ -1,6 +1,6 @@
 ### Kraken
 
-![image](https://github.com/tHeStRyNg/kraken/assets/118682909/14178ce2-4f7a-4c0a-8cce-eef300915a71)
+![image](https://github.com/tHeStRyNg/kraken/assets/118682909/bb60fa66-b7c4-48c9-b294-ad1f5d3c6137)
 
 #### Instalation 
 
