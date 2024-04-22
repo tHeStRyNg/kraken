@@ -768,7 +768,51 @@ root@kraken:/opt/wordlist# wc -l rockyou.txt
 
 
 ```
+##### Brute Force 1 try to see if working
 
-Have Fun ^_^
+```
+8743b52063cd84097a65d1633f5c74f5:hashcat
+
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 0 (MD5)
+Hash.Target......: 8743b52063cd84097a65d1633f5c74f5
+Time.Started.....: Mon Apr 22 10:06:17 2024 (1 sec)
+Time.Estimated...: Mon Apr 22 10:06:18 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Mask.......: ?1?2?2?2?2?2?2 [7]
+Guess.Charset....: -1 ?l?d?u, -2 ?l?d, -3 ?l?d*!$@_, -4 Undefined
+Guess.Queue......: 7/15 (46.67%)
+Speed.#1.........:  3734.3 MH/s (7.58ms) @ Accel:64 Loops:64 Thr:512 Vec:1
+Recovered........: 1/1 (100.00%) Digests
+Progress.........: 4110417920/134960504832 (3.05%)
+Rejected.........: 0/4110417920 (0.00%)
+Restore.Point....: 0/1679616 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:8896-8960 Iteration:0-64
+Candidate.Engine.: Device Generator
+Candidates.#1....: 7zueran -> 653nq57
+Hardware.Mon.#1..: Core:1410MHz Mem:1512MHz
+
+Started: Mon Apr 22 10:06:06 2024
+Stopped: Mon Apr 22 10:06:18 2024
+
+root@kraken:/opt/wordlist# hashcat -m 0 -a 3 md5.txt
+
+root@kraken:/opt/wordlist# cat md5.txt
+8743b52063cd84097a65d1633f5c74f5
+
+root@kraken:/opt/wordlist#
+
+```
+##### Concllusion
+
+* Status...........: Cracked
+* Candidates.#1....: 7zueran -> 653nq57
+
+###### Time Taken
+* Started: Mon Apr 22 10:06:06 2024
+* Stopped: Mon Apr 22 10:06:18 2024
+
+* Have Fun ^_^
 
 
