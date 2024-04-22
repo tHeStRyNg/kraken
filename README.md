@@ -4,6 +4,13 @@
 
 #### Instalation 
 
+##### Check if HW is present
+
+```
+root@kraken:~# lspci | grep -i nv
+06:00.0 3D controller: NVIDIA Corporation GA100 [A100 PCIe 80GB] (rev a1)
+```
+
 ##### Add the Nvidia Repo and key to access the Nvidia Drivers
 ```
 bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
