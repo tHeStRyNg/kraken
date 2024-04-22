@@ -732,6 +732,38 @@ If you think you need help by a real human come to the hashcat Discord:
 * https://hashcat.net/discord
 
 ```
+##### Dont forget your wordlist
+
+```
+root@kraken:/opt/wordlist# curl https://gitlab.com/kalilinux/packages/wordlists/-/raw/kali/master/rockyou.txt.gz --output rockyou.txt.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 50.8M  100 50.8M    0     0  96.4M      0 --:--:-- --:--:-- --:--:-- 96.5M
+
+root@kraken:/opt/wordlist# ls -ltrs
+total 52108
+52108 -rw-r--r-- 1 root root 53357341 Apr 22 09:51 rockyou.txt.gz
+
+root@kraken:/opt/wordlist# gunzip -d rockyou.txt.gz
+
+root@kraken:/opt/wordlist# ls -ltrs
+total 136644
+136644 -rw-r--r-- 1 root root 139921507 Apr 22 09:51 rockyou.txt
+
+root@kraken:/opt/wordlist# head rockyou.txt
+123456
+12345
+123456789
+password
+iloveyou
+princess
+1234567
+rockyou
+12345678
+abc123
+root@kraken:/opt/wordlist#
+
+```
 
 Have Fun ^_^
 
